@@ -9,7 +9,7 @@ var list = ['Bianchi', 'Rossi', 'Neri', 'Gialli', 'Verdi'];
 
 // chiedi il cognome all'utente e inseriscilo nella lista
 var utente = prompt('inserisci il tuo cognome');
-utente = utente.charAt(0).toUpperCase() + utente.slice(1);
+utente = utente.charAt(0).toUpperCase() + utente.slice(1).toLowerCase();
 list.push(utente);
 
 console.log(list);
