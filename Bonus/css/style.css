@@ -1,0 +1,49 @@
+* {
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 30px;
+    background: linear-gradient(#8B0000, #FFD700);
+    font-family: 'Roboto', sans-serif;
+}
+
+#list {
+    list-style: none;
+    font-size: 30px;
+    color: red;
+    padding: 30px;
+}
+
+#list li:before {
+    content: '\00AE';
+}
+
+#list li:nth-child(odd) {
+    color: yellow;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+.titolo {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-size: 30px;
+    color: wheat;
+}
