@@ -5,7 +5,7 @@ Consegna:
 // 4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
 
 // array con altri cognomi
-var list = ['Derossi', 'Totti', 'Amadei', 'Di Bartolomei', 'Pellegrini'];
+var list = ['DeRSossi', 'Totti', 'Di Bartolomei', 'Pellegrini', 'Giannini'];
 
 // chiedi il cognome all'utente e inseriscilo nella lista
 var utente = prompt('inserisci il tuo cognome');
