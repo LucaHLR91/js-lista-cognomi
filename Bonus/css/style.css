@@ -23,6 +23,10 @@
     padding: 30px;
 }
 
+#list li {
+    padding-bottom: 10px;
+}
+
 #list li:before {
     content: '\00AE';
 }
