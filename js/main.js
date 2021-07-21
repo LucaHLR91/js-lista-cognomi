@@ -13,6 +13,8 @@ utente = utente.charAt(0).toUpperCase() + utente.slice(1).toLowerCase();
 list.push(utente);
 
 console.log(list);
+
+list.sort();
 console.log(list.sort());
 
 // scrivi la posizione umana della lista in cui il nuovo utente si trova
